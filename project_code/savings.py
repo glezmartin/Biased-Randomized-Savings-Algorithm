@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from itertools import combinations
 
 
-
 def read_nodes(instance_name):
     file_name = '../project_data/{}_input_nodes.txt'.format(instance_name)
     with open(file_name) as instance:
@@ -226,17 +225,16 @@ class Solution:
         return self
     
     def plot_routes(self):
-        f = plt.figure(figsize=(20,10))
+        plt.figure(figsize=(20, 10))
         ax = plt.gca()
-        G = nx.Graph()
+        g = nx.Graph()
         for route in self.routes:
             for edge in route.edges:
-                G.add_edge(edge.origin.ID, edge.end.ID)
-                G.add_node(edge.end.ID, coord=(edge.end.x, edge.end.y))
-        coord = nx.get_node_attributes(G, 'coord')
-        nx.draw_networkx(G, coord, edge_color = '#3B61AF', node_color='#1EC16B')
+                g.add_edge(edge.origin.ID, edge.end.ID)
+                g.add_node(edge.end.ID, coord=(edge.end.x, edge.end.y))
+        coord = nx.get_node_attributes(g, 'coord')
+        nx.draw_networkx(g, coord, edge_color='#3B61AF', node_color='#1EC16B')
         ax.spines['right'].set_visible(False)
         ax.spines['top'].set_visible(False)
         ax.spines['bottom'].set_visible(False)
         ax.spines['left'].set_visible(False)
-  
