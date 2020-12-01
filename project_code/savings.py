@@ -1,6 +1,9 @@
 import math
 import operator
+import networkx as nx
+import matplotlib.pyplot as plt
 from itertools import combinations
+
 
 
 def read_nodes(instance_name):
@@ -221,4 +224,19 @@ class Solution:
         self.demand -= route.demand
         self.routes.remove(route)
         return self
-        
+    
+    def plot_routes(self):
+        f = plt.figure(figsize=(20,10))
+        ax = plt.gca()
+        G = nx.Graph()
+        for route in self.routes:
+            for edge in route.edges:
+                G.add_edge(edge.origin.ID, edge.end.ID)
+                G.add_node(edge.end.ID, coord=(edge.end.x, edge.end.y))
+        coord = nx.get_node_attributes(G, 'coord')
+        nx.draw_networkx(G, coord, edge_color = '#3B61AF', node_color='#1EC16B')
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.spines['bottom'].set_visible(False)
+        ax.spines['left'].set_visible(False)
+  
