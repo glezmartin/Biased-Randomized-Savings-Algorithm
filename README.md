@@ -10,6 +10,6 @@ The aim of this project is to include in the route selection process of the savi
 ## Table of contents
 * [C&W Savings algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/_savings_algorithm.py)
 * [Test of the benchmark examples of C&W Savings Algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/cw_savings_benchmark.ipynb)
-* [Skewed Distributions] (https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/skewed_th_prob_distr.ipynb)
+* [Skewed Distributions](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/skewed_th_prob_distr.ipynb)
 * [Biased-Randomizied Savings Algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/_random_biased_savings.py)
 * [Test of the benchmark example of the modified C&W Savings Algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/rb_savings_benchmark.ipynb)
