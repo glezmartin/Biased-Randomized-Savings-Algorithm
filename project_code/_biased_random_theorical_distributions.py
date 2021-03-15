@@ -48,4 +48,4 @@ def get_random_geometric_position(n, beta):
         position = position % (n + 1)
         
     return int(np.round(position)) - 1
-
+ 
