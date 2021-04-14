@@ -11,9 +11,9 @@ This project is part of the Metaheuristic Optimization course of the Master in C
 
 ## Table of contents
 * [C&W Savings algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/src/savings_algorithm.py)
-* [C&W Savings algorithm - Example (Jupyter notebook)](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/notebooks/C%26W%20Savings%20Algorithm.ipynb)
+* [C&W Savings algorithm example (Jupyter notebook)](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/notebooks/C%26W%20Savings%20Algorithm.ipynb)
 * [Random Biased Alternatives](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/src/random_biased_savings.py)
-* [Random Biased Alternatives - Example (Jupyter notebook)](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/notebooks/Random%20Biased%20Savings%20with%20Theoretical%20Distributions.ipynb)
+* [Random Biased Alternatives example (Jupyter notebook)](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/notebooks/Random%20Biased%20Savings%20with%20Theoretical%20Distributions.ipynb)
 * [Testing algorithms with theoretical distributions](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/notebooks/Testing%20algorithms%20with%20theoretical%20distributions.ipynb)
 
 
