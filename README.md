@@ -14,4 +14,4 @@ The aim of this project is to include in the route selection process of the savi
 * [Biased-Randomizied Savings Algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/_random_biased_savings.py)
 * [Test of the benchmark example of the modified C&W Savings Algorithm](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project_code/rb_savings_benchmark.ipynb)
 
-![Monte Carlo Simulation Solution](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/project-miscellany/images/MCS_solution.png)
+![Monte Carlo Simulation Solution](https://github.com/glezmartin/Biased-Randomized-Savings-Algorithm/blob/main/reports/figures/MCS_solution.png)
